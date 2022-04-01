@@ -157,8 +157,12 @@ body {
 
 /* mobile screen */
 @media screen and (min-width: 300px) and (max-width: 499px) {
+  .App {
+    background-color: #000;
+  }
+
   .container {
     width: 100%;
-    height: 100vh;
+    height: 90vh;
   }
 }
